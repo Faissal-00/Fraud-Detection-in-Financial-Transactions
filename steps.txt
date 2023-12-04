@@ -1,0 +1,33 @@
+Access to Hive :
+docker exec -it hive-server /bin/bash
+
+access to hive :
+root@5599da0c8c8c:/opt# hive
+
+check databases :
+hive> show databases;
+
+drop database :
+DROP DATABASE IF EXISTS financial_data ;
+
+check tables :
+SHOW TABLES;
+
+drop table :
+DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS external_data;
+
+use database :
+use financial_data;
+
+
+select data from table :
+select * from customers;
+
+describe a table;
+describe transactions;
+
+
+
+
